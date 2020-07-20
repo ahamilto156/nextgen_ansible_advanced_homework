@@ -1,5 +1,8 @@
 - hosts: workstation
   gather_facts: true
+  vars_files:
+    - config-tower_vault.yml
+    - config_tower.yml
   roles:
   - name: osp-facts
 
