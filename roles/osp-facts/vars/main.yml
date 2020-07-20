@@ -1,4 +1,2 @@
 ---
 # vars file for osp-facts
-opentlc_login: {{ vault_opentlc_login }}
-opentlc_password: {{ vault_opentlc_password }}
