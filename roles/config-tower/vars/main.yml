@@ -1,10 +1,10 @@
 ---
 # vars file for roles/config-tower
 osp_GUID: fd86
-OPENTLC_ID: ahamilto-redhat.com
+opentlc_login: ahamilto-redhat.com
 osp_DOMAIN: blue.osp.opentlc.com
 tower_GUID: 665b
-OPENTLC_PASSWORD: W@RMclothe5
+opentlc_password: W@RMclothe5
 GITHUB_REPO: "https://github.com/ahamilto156//nextgen_ansible_advanced_homework.git"
 JQ_REPO_BASE: "http://www.opentlc.com/download/ansible_bootcamp"
 REGION_NAME: us-east-1
