@@ -1,5 +1,15 @@
 ---
 # vars file for roles/config-tower
+OSP_GUID: fd86
+OPENTLC_ID: ahamilto-redhat.com
+OSP_DOMAIN: blue.osp.opentlc.com
+TOWER_GUID: 665b
+OPENTLC_PASSWORD: W@RMclothe5
+GITHUB_REPO: "https://github.com/ahamilto156//nextgen_ansible_advanced_homework.git"
+JQ_REPO_BASE: "http://www.opentlc.com/download/ansible_bootcamp"
+REGION: us-east-1
+MAIL_ID: ahamilto@redhat.com
+
 org_name: Default 
 scm_branch: master 
 scm_url: "{{ github_repo }}"
@@ -41,5 +51,4 @@ job_template_name_3tier_app_aws: "09_3 tier app on Prod"
 aws_cred_name: "Creds for AWS instances"
 job_template_smoke_aws: "10_Smoke test Prod env"
 aws_smoke_app_playbook: site-smoketest-aws.yml
-tower_GUID: 665b
 
