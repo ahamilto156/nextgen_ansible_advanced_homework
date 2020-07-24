@@ -5,7 +5,7 @@ opentlc_login: ahamilto-redhat.com
 osp_DOMAIN: blue.osp.opentlc.com
 tower_GUID: 665b
 opentlc_password: W@RMclothe5
-GITHUB_REPO: "https://github.com/ahamilto156//nextgen_ansible_advanced_homework.git"
+github_repo: "https://github.com/ahamilto156//nextgen_ansible_advanced_homework.git"
 JQ_REPO_BASE: "http://www.opentlc.com/download/ansible_bootcamp"
 REGION_NAME: us-east-1
 EMAIL: ahamilto@redhat.com
