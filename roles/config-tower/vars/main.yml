@@ -37,7 +37,7 @@ job_template_aws_provision: "01_Provision Prod Env"
 aws_provision_playbook: aws_provision.yml
 ec2_dynamic_inventory: "Prod Three tier inventory"
 aws_ssh_playbook: aws_creds.yml
-opentlc_cred_name: "Opentlc key"
+opentlc_cred_name: "ahamilto-redhat.com"
 job_template_aws_ssh_keys: "08_Prod SSH keys three tier app"
 ec2_inventory_source: "03_06_Prod Three tier inventory source"
 aws_region_name: "{{ REGION_NAME }}"
