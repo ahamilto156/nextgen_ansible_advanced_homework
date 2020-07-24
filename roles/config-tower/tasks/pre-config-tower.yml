@@ -10,7 +10,7 @@
 
 - name: Copy opentlc ssh keys
   copy:
-    src: /root/.ssh/ahamilto-redhat.pem
+    src: /root/.ssh/mykey.pem
     dest: /root/secret.pem
 
 
